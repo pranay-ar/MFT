@@ -22,7 +22,7 @@ def get_config():
     }
     conf.raft_params = AttrDict(**raft_kwargs)
     # original model location:
-    conf.model = 'external/manual_repos/MFT/mft/checkpoints/raft-things-sintel-kubric-splitted-occlusion-uncertainty-non-occluded-base-sintel.pth'
+    conf.model = '/GRID/external/manual_repos/MFT/mft/checkpoints/raft-things-sintel-kubric-splitted-occlusion-uncertainty-non-occluded-base-sintel.pth'
 
     conf.flow_iters = 12
 
